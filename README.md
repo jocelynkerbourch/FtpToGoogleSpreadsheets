@@ -30,3 +30,8 @@ $filterFieldNumber = 4;
 $filter ='#OK#';
 
 ```
+
+### Use 
+```shell
+php process.php
+```
