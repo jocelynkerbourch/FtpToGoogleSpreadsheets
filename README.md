@@ -1,5 +1,8 @@
 # FtpToGoogleSpreadsheets
 
+### Context
+Simple code to aggregate csv file (in FTP) to a Google Spreadsheets.
+
 ### Configuration
 
 * Create config file 
