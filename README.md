@@ -26,7 +26,7 @@ $fileMapping = array(
 					1=>'name',
 					2=>'cp',
 					3=>'city',
-					4=>'status',
+					4=>'status'
 				);
 
 $filterFieldNumber = 4;
