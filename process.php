@@ -14,6 +14,7 @@ function isDir($dir,$connect) {
 
 $connect = ftp_connect(FTP_SERVER);
 $login = ftp_login($connect, FTP_USER, FTP_PASSWORD);
+ftp_pasv($connect,true);
 $files = ftp_nlist($connect, FTP_PATH_RECEIVE."/");
 foreach ($files as $file) {
 	if (isDir($file,$connect)) continue;
